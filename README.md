@@ -1,5 +1,5 @@
 # ffNeuralNet
-A basic C++ API for training feed-forward neural networks
+<a href="https://charelstoncrabb.github.io/ffNeuralNet/">A basic C++ API for training feed-forward neural networks</a>
 
 This code relies on the <a href="http://eigen.tuxfamily.org/index.php?title=Main_Page">Eigen linear algebra library</a>.
 
