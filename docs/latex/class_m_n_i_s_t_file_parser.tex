@@ -1,0 +1,56 @@
+\hypertarget{class_m_n_i_s_t_file_parser}{}\section{M\+N\+I\+S\+T\+File\+Parser Class Reference}
+\label{class_m_n_i_s_t_file_parser}\index{M\+N\+I\+S\+T\+File\+Parser@{M\+N\+I\+S\+T\+File\+Parser}}
+Inheritance diagram for M\+N\+I\+S\+T\+File\+Parser\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_m_n_i_s_t_file_parser}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_m_n_i_s_t_file_parser_a4e50774bc3ff914f91742020ebddd842}\label{class_m_n_i_s_t_file_parser_a4e50774bc3ff914f91742020ebddd842}} 
+{\bfseries M\+N\+I\+S\+T\+File\+Parser} (std\+::string filename)
+\item 
+\mbox{\Hypertarget{class_m_n_i_s_t_file_parser_a77153a0159347e41761c0948b34a8893}\label{class_m_n_i_s_t_file_parser_a77153a0159347e41761c0948b34a8893}} 
+virtual void {\bfseries parse} (void)=0
+\item 
+\mbox{\Hypertarget{class_m_n_i_s_t_file_parser_a91934edbf3852030ef9341281491637e}\label{class_m_n_i_s_t_file_parser_a91934edbf3852030ef9341281491637e}} 
+Eigen\+::\+Matrix\+Xd $\ast$ {\bfseries get\+Data} (void) const
+\item 
+\mbox{\Hypertarget{class_m_n_i_s_t_file_parser_afd1183b4334e41d9e5060e70c07b5759}\label{class_m_n_i_s_t_file_parser_afd1183b4334e41d9e5060e70c07b5759}} 
+std\+::pair$<$ int, int $>$ {\bfseries data\+Size} (void) const
+\item 
+\mbox{\Hypertarget{class_m_n_i_s_t_file_parser_a2cc71c0f1ada30d6039f1f90d864696d}\label{class_m_n_i_s_t_file_parser_a2cc71c0f1ada30d6039f1f90d864696d}} 
+void {\bfseries set\+Record\+Cap} (int cap)
+\item 
+\mbox{\Hypertarget{class_m_n_i_s_t_file_parser_ab01a79cb739cb2e90226240365e11f30}\label{class_m_n_i_s_t_file_parser_ab01a79cb739cb2e90226240365e11f30}} 
+int {\bfseries get\+Num\+Records} (void) const
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_m_n_i_s_t_file_parser_a40515ef5800bb10620ab6cac6c994750}\label{class_m_n_i_s_t_file_parser_a40515ef5800bb10620ab6cac6c994750}} 
+const std\+::string {\bfseries filename}
+\item 
+\mbox{\Hypertarget{class_m_n_i_s_t_file_parser_a658bfcf8d881bc2a6c9e73ae13be7fa4}\label{class_m_n_i_s_t_file_parser_a658bfcf8d881bc2a6c9e73ae13be7fa4}} 
+int {\bfseries magic\+\_\+number}
+\item 
+\mbox{\Hypertarget{class_m_n_i_s_t_file_parser_a2d6456b4f107c05afd748ad5ae5dfda3}\label{class_m_n_i_s_t_file_parser_a2d6456b4f107c05afd748ad5ae5dfda3}} 
+int {\bfseries num\+\_\+records}
+\item 
+\mbox{\Hypertarget{class_m_n_i_s_t_file_parser_aa51099df794558d800bc45952a96b072}\label{class_m_n_i_s_t_file_parser_aa51099df794558d800bc45952a96b072}} 
+Eigen\+::\+Matrix\+Xd $\ast$ {\bfseries data}
+\item 
+\mbox{\Hypertarget{class_m_n_i_s_t_file_parser_a6d7f525b818599dd33748e941453cdcc}\label{class_m_n_i_s_t_file_parser_a6d7f525b818599dd33748e941453cdcc}} 
+std\+::ifstream {\bfseries fs}
+\item 
+\mbox{\Hypertarget{class_m_n_i_s_t_file_parser_a9dc6f336f0c71750f8118905edc23c47}\label{class_m_n_i_s_t_file_parser_a9dc6f336f0c71750f8118905edc23c47}} 
+int {\bfseries record\+\_\+cap}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/charc/source/repos/ff\+Neural\+Net/\+Neural\+Net/M\+N\+I\+S\+T\+File\+Parser.\+h\item 
+C\+:/\+Users/charc/source/repos/ff\+Neural\+Net/\+Neural\+Net/M\+N\+I\+S\+T\+File\+Parser.\+cpp\end{DoxyCompactItemize}

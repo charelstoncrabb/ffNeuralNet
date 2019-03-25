@@ -1,0 +1,41 @@
+\hypertarget{class_f_f_neural_net}{}\section{F\+F\+Neural\+Net Class Reference}
+\label{class_f_f_neural_net}\index{F\+F\+Neural\+Net@{F\+F\+Neural\+Net}}
+
+
+Simple feed-\/forward network with single activation function at all levels.  
+
+
+
+
+{\ttfamily \#include $<$F\+F\+Neural\+Net.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_f_f_neural_net_a51b79470c6d19c7b7d37f043c695b5b0}\label{class_f_f_neural_net_a51b79470c6d19c7b7d37f043c695b5b0}} 
+{\bfseries F\+F\+Neural\+Net} (int n\+Input\+Nodes=1, int n\+Hidden\+Nodes=1, int n\+Hidden\+Layers=1, int n\+Output\+Nodes=1, double rate=0.\+2, std\+::pair$<$ std\+::function$<$ Eigen\+::\+Matrix\+Xd(Eigen\+::\+Matrix\+Xd)$>$, std\+::function$<$ Eigen\+::\+Matrix\+Xd(Eigen\+::\+Matrix\+Xd)$>$$>$ A\+C\+T\+F\+UN=std\+::pair$<$ std\+::function$<$ Eigen\+::\+Matrix\+Xd(Eigen\+::\+Matrix\+Xd)$>$, std\+::function$<$ Eigen\+::\+Matrix\+Xd(Eigen\+::\+Matrix\+Xd)$>$$>$(act\+Funs\+::sigmoid, act\+Funs\+::sigmoid\+\_\+prime))
+\item 
+\mbox{\Hypertarget{class_f_f_neural_net_ac419314557a65bebfa9d457673cc2211}\label{class_f_f_neural_net_ac419314557a65bebfa9d457673cc2211}} 
+void {\bfseries train} (Eigen\+::\+Matrix\+Xd $\ast$X, Eigen\+::\+Matrix\+Xd $\ast$Y, double tol)
+\item 
+\mbox{\Hypertarget{class_f_f_neural_net_ab8d26640e55c0422527822124c4216b7}\label{class_f_f_neural_net_ab8d26640e55c0422527822124c4216b7}} 
+double {\bfseries test} (Eigen\+::\+Matrix\+Xd $\ast$X, Eigen\+::\+Matrix\+Xd $\ast$Y)
+\item 
+\mbox{\Hypertarget{class_f_f_neural_net_ad42d220ba8a00ede1f60f6674eecc69a}\label{class_f_f_neural_net_ad42d220ba8a00ede1f60f6674eecc69a}} 
+Eigen\+::\+Matrix\+Xd {\bfseries predict} (Eigen\+::\+Matrix\+Xd)
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_f_f_neural_net_a63fe7da00177d41882169c5f904d5652}\label{class_f_f_neural_net_a63fe7da00177d41882169c5f904d5652}} 
+class {\bfseries F\+F\+N\+N\+Test}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Simple feed-\/forward network with single activation function at all levels. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/charc/source/repos/ff\+Neural\+Net/\+Neural\+Net/F\+F\+Neural\+Net.\+h\item 
+C\+:/\+Users/charc/source/repos/ff\+Neural\+Net/\+Neural\+Net/F\+F\+Neural\+Net.\+cpp\end{DoxyCompactItemize}
